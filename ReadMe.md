@@ -30,8 +30,7 @@ You'll then find the `crayons.js` file in
 [`crayons.js`](https://github.com/kbroman/crayonsJS/tree/master/crayons.js)
 contains just one thing:
 
-- `crayons` &ndash; an object indexed by palette name, containing
-  the colors. For example, `crayons["Tickle Me Pink"]`.
+- `crayons` &ndash; an object, indexed by color name. For example, `crayons["Tickle Me Pink"]`.
 
 
 ### License
