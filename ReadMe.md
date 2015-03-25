@@ -6,7 +6,7 @@ Color crolors based on crayola crayons, taken from
 ### Installation
 
 You could grab the file directly from the github repository:
-[`crayons.js`](https://raw.githubusercontent.com/kbroman/crayonsJS/master/crayons.js).
+[`crayons.js`](https://raw.githubusercontent.com/kbroman/crayonsJS/tree/master/crayons.js).
 
 Or you could clone the git repository:
 
@@ -25,7 +25,7 @@ You'll then find the `crayons.js` file in
 
 ### Usage
 
-[`crayons.js`](https://github.com/kbroman/crayonsJS/master/crayons.js)
+[`crayons.js`](https://github.com/kbroman/crayonsJS/tree/master/crayons.js)
 contains just one thing:
 
 - `crayons` &ndash; an object indexed by palette name, containing
