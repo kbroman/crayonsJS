@@ -1,0 +1,21 @@
+{
+  "name": "crayons",
+  "version": "0.1",
+  "homepage": "https://github.com/kbroman/crayonsJS",
+  "authors": [
+    "Karl Broman <kbroman@gmail.com>"
+  ],
+  "description": "Colors based on Crayola crayons",
+  "main": "crayons.js",
+  "keywords": [
+    "graphics"
+  ],
+  "license": "MIT",
+  "ignore": [
+        "**/.*",
+        "Makefile",
+        "crayons.png",
+        "R",
+        "Web"
+  ]
+}
