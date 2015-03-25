@@ -3,10 +3,12 @@
 Color crolors based on crayola crayons, taken from
 <http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors>
 
+![crayon colors](crayons.png)
+
 ### Installation
 
 You could grab the file directly from the github repository:
-[`crayons.js`](https://raw.githubusercontent.com/kbroman/crayonsJS/tree/master/crayons.js).
+[`crayons.js`](https://raw.githubusercontent.com/kbroman/crayonsJS/master/crayons.js).
 
 Or you could clone the git repository:
 
