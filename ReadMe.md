@@ -1,6 +1,6 @@
 ## Crayon colors for javascript
 
-Color crolors based on crayola crayons, taken from
+Colors based on crayola crayons, taken from
 <http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors>
 
 ![crayon colors](crayons.png)
