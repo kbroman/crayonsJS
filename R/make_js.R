@@ -3,9 +3,9 @@
 outfile = "../crayons.js"
 
 library(broman)
-library(RJSONIO)
+library(jsonlite)
 
-colors <- RJSONIO::toJSON(brocolors("crayons"))
+colors <- jsonlite::toJSON(as.list(brocolors("crayons")), auto_unbox=TRUE)
 colors <- gsub("\\n", "", colors)
 colors <- gsub(": ", ":", colors)
 colors <- gsub(" \\}", "}", colors)
