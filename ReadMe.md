@@ -25,11 +25,10 @@ bower install crayons
 You'll then find the `crayons.js` file in
 `bower_components/crayons/crayons.js`.
 
-You can also link to it directly at
+You can also link to it directly.
 
 ```html
 <script type="text/javascript" src="https://kbroman.org/crayons.js"></script>
-<link rel=stylesheet type="text/css" href="https://kbroman.org/crayons.css">
 ```
 
 ### Usage
@@ -40,6 +39,26 @@ contains just one thing:
 - `crayons` &ndash; an object, indexed by color name. For example, `crayons["Tickle Me Pink"]`.
 
 
+### CSS
+
+There's also a CSS version,
+[`crayons.css`](https://github.com/kbroman/crayonsJS/main/crayons.css).
+
+Link to it as follows:
+
+```html
+<link rel=stylesheet type="text/css" href="https://kbroman.org/crayons.css">
+```
+
+It defines a bunch of variables like `--TickleMePink`. Use them as
+follows:
+
+```css
+body {
+    background-color: var(--CottonCandy);
+    color: var(--RoyalPurple)
+}
+```
 
 ### License
 
