@@ -29,6 +29,7 @@ You can also link to it directly at
 
 ```html
 <script type="text/javascript" src="https://kbroman.org/crayons.js"></script>
+<link rel=stylesheet type="text/css" href="https://kbroman.org/crayons.css">
 ```
 
 ### Usage

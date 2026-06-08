@@ -9,10 +9,10 @@ crayons <- broman::brocolors("crayons")
 colors <- paste0("  --", gsub(" ", "", names(crayons)), ": ", crayons, ";")
 colors <- gsub("'", "", colors)
 
-cat("// crayons.css, https://github.com/kbroman/crayonsJS\n",
+cat("/* crayons.css, https://github.com/kbroman/crayonsJS */\n",
     file=outfile)
-cat("// colors from http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors\n\n",
+cat("/* colors from http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors */\n\n",
     file=outfile, append=TRUE)
 cat(":root {\n", file=outfile, append=TRUE)
 cat(colors, sep="\n", file=outfile, append=TRUE)
-cat("}", file=outfile, append=TRUE)
+cat("}\n", file=outfile, append=TRUE)
