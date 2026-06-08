@@ -5,7 +5,12 @@ outfile = "../crayons.css"
 library(broman)
 library(jsonlite)
 
-crayons <- broman::brocolors("crayons")
+crayons <- brocolors("crayons")
+w <- which(names(crayons) == "Violet (Purple)")
+names(crayons)[w] <- "Violet"
+crayons["Purple"] <- crayons["Violet"]
+crayons <- crayons[order(names(crayons))]
+
 colors <- paste0("  --", gsub(" ", "", names(crayons)), ": ", crayons, ";")
 colors <- gsub("'", "", colors)
 

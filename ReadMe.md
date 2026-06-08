@@ -16,14 +16,14 @@ Or you could clone the git repository:
 git clone git://github.com/kbroman/crayonsjs
 ```
 
-Or, you can use [bower](http://bower.io/):
+Or, you can use [npm](https://npmjs.com)
 
 ```
-bower install crayons
+npm install crayons
 ```
 
 You'll then find the `crayons.js` file in
-`bower_components/crayons/crayons.js`.
+`node_modules/crayonsjs/crayons.js`.
 
 You can also link to it directly.
 
@@ -38,6 +38,8 @@ contains just one thing:
 
 - `crayons` &ndash; an object, indexed by color name. For example, `crayons["Tickle Me Pink"]`.
 
+We just made one change: the color "Violet (Purple)" is duplicated at
+just `crayons["Violet"]` and `crayons["Purple"]`.
 
 ### CSS
 
@@ -50,8 +52,10 @@ Link to it as follows:
 <link rel=stylesheet type="text/css" href="https://kbroman.org/crayons.css">
 ```
 
-It defines a bunch of variables like `--TickleMePink`. Use them as
-follows:
+It defines a bunch of variables like `--TickleMePink`. Note that the
+spaces have been removed from the names, as well as apostrophes.
+Also we changed "Violet (Purple)" to listed as both `--Violet` and `--Purple`.
+Use them as follows:
 
 ```css
 body {

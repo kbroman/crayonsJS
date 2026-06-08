@@ -5,7 +5,13 @@ outfile = "../crayons.js"
 library(broman)
 library(jsonlite)
 
-colors <- jsonlite::toJSON(as.list(brocolors("crayons")), auto_unbox=TRUE)
+crayons <- brocolors("crayons")
+w <- which(names(crayons) == "Violet (Purple)")
+names(crayons)[w] <- "Violet"
+crayons["Purple"] <- crayons["Violet"]
+crayons <- crayons[order(names(crayons))]
+
+colors <- jsonlite::toJSON(as.list(crayons), auto_unbox=TRUE)
 colors <- gsub("\\n", "", colors)
 colors <- gsub(": ", ":", colors)
 colors <- gsub(" \\}", "}", colors)
@@ -17,4 +23,4 @@ cat("// colors from http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors\n
     file=outfile, append=TRUE)
 cat("crayons=", file=outfile, append=TRUE)
 cat(colors, file=outfile, append=TRUE)
-cat(";", file=outfile, append=TRUE)
+cat(";\n", file=outfile, append=TRUE)
