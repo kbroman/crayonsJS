@@ -8,12 +8,12 @@ Colors based on crayola crayons, taken from
 ### Installation
 
 You could grab the file directly from the github repository:
-[`crayons.js`](https://raw.githubusercontent.com/kbroman/crayonsJS/master/crayons.js).
+[`crayons.js`](https://raw.githubusercontent.com/kbroman/crayonsjs/master/crayons.js).
 
 Or you could clone the git repository:
 
 ```
-git clone git://github.com/kbroman/crayonsJS
+git clone git://github.com/kbroman/crayonsjs
 ```
 
 Or, you can use [bower](http://bower.io/):
@@ -33,7 +33,7 @@ You can also link to it directly.
 
 ### Usage
 
-[`crayons.js`](https://github.com/kbroman/crayonsJS/tree/master/crayons.js)
+[`crayons.js`](https://github.com/kbroman/crayonsjs/tree/main/crayons.js)
 contains just one thing:
 
 - `crayons` &ndash; an object, indexed by color name. For example, `crayons["Tickle Me Pink"]`.
@@ -42,7 +42,7 @@ contains just one thing:
 ### CSS
 
 There's also a CSS version,
-[`crayons.css`](https://github.com/kbroman/crayonsJS/main/crayons.css).
+[`crayons.css`](https://github.com/kbroman/crayonsjs/main/crayons.css).
 
 Link to it as follows:
 

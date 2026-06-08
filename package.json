@@ -1,10 +1,10 @@
 {
-  "name": "crayonsJS",
-  "version": "0.3.1",
+  "name": "crayonsjs",
+  "version": "0.3.3",
   "description": "Colors based on Crayola crayons",
   "author": "Karl Broman <kbroman@gmail.com> (https://kbroman.org)",
-  "repository": "github:kbroman/crayonsJS",
-  "homepage": "https://github.com/kbroman/crayonsJS",
+  "repository.url": "git+https://github.com/kbroman/crayonsjs.git",
+  "homepage": "https://github.com/kbroman/crayonsjs",
   "license": "MIT",
   "files": [
     "ReadMe.md",
