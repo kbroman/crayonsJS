@@ -8,7 +8,7 @@ Colors based on crayola crayons, taken from
 ### Installation
 
 You could grab the file directly from the github repository:
-[`crayons.js`](https://raw.githubusercontent.com/kbroman/crayonsjs/master/crayons.js).
+[`crayons.js`](https://raw.githubusercontent.com/kbroman/crayonsjs/main/crayons.js).
 
 Or you could clone the git repository:
 
@@ -44,7 +44,7 @@ just `crayons["Violet"]` and `crayons["Purple"]`.
 ### CSS
 
 There's also a CSS version,
-[`crayons.css`](https://github.com/kbroman/crayonsjs/main/crayons.css).
+[`crayons.css`](https://github.com/kbroman/crayonsjs/tree/main/crayons.css).
 
 Link to it as follows:
 

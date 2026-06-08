@@ -17,7 +17,7 @@ colors <- gsub(": ", ":", colors)
 colors <- gsub(" \\}", "}", colors)
 colors <- gsub("\\{ ", "{", colors)
 
-cat("// crayons.js, https://github.com/kbroman/crayonsJS\n",
+cat("// crayons.js, https://github.com/kbroman/crayonsjs\n",
     file=outfile)
 cat("// colors from http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors\n\n",
     file=outfile, append=TRUE)
