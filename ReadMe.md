@@ -25,12 +25,19 @@ bower install crayons
 You'll then find the `crayons.js` file in
 `bower_components/crayons/crayons.js`.
 
+You can also link to it directly at
+
+```html
+<script type="text/javascript" src="https://kbroman.org/crayons.js"></script>
+```
+
 ### Usage
 
 [`crayons.js`](https://github.com/kbroman/crayonsJS/tree/master/crayons.js)
 contains just one thing:
 
 - `crayons` &ndash; an object, indexed by color name. For example, `crayons["Tickle Me Pink"]`.
+
 
 
 ### License
