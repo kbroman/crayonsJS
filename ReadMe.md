@@ -38,7 +38,7 @@ contains just one thing:
 
 - `crayons` &ndash; an object, indexed by color name. For example, `crayons["Tickle Me Pink"]`.
 
-We just made one change: the color "Violet (Purple)" is duplicated at
+We just made one change: the color "Violet (Purple)" is duplicated as
 just `crayons["Violet"]` and `crayons["Purple"]`.
 
 ### CSS
